@@ -18,42 +18,45 @@
 
   <!-- Create your table below -->
   <table>
+    <thead>
     <tr>
-      <th>01</th>
-      <th>NAME</th>
-      <th>EMAIL</th>
-      <th>MOBILE</th>
-      <th>ADDRESS</th>
+      <th scope="col">01</th>
+      <th scope="col">NAME</th>
+      <th scope="col">EMAIL</th>
+      <th scope="col">MOBILE</th>
+      <th scope="col">ADDRESS</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
-      <th>01</th>
+      <th scope="col">01</th>
       <td>Mehmet Demir </td>
       <td>asd@gmail.com</td>
       <td>0987654321</td>
       <td>WF2 9AF wakefields</td>
     </tr>
     <tr>
-      <th>02</th>
+      <th scope="col">02</th>
       <td>Ahmet Demir</td>
       <td>asd@gmail.com</td>
       <td>0987654321</td>
       <td>WF2 9AF wakefields</td>
     </tr>
     <tr>
-      <th>03</th>
+      <th scope="col">03</th>
       <td>Ali Demir</td>
       <td>asd@gmail.com</td>
       <td>0987654321</td>
       <td rowspan="2"></td>
     </tr>
     <tr>
-      <th>04</th>
+      <th scope="col">04</th>
       <td>Murat Demir</td>
       <td>asd@gmail.com</td>
       <td>0987654321</td>
     </tr>
     <tr>
-      <td rowspan="2">05</td>
+      <td scope="col" rowspan="2">05</td>
       <td rowspan="2">Salih Demir</td>
       <td>asd@gmail.com</td>
       <td>0987654321</td>
@@ -64,11 +67,14 @@
       <td>0987654321</td>
       <td>GF5 GH6 Paris</td>
     </tr>
+  </tbody>
+  <tfoot>
     <tr>
       <td colspan="3"></td>
-      <th>Total contacts:</th>
+      <th scope="col">Total contacts:</th>
       <td>5</td>
     </tr>
+  </tfoot>
   </table>
 
 </body>
